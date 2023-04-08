@@ -298,6 +298,86 @@ public class MainActivity extends AppCompatActivity {
                    }
                }
            });
+           bsum.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                       flag = 1;
+                       sum = 1;
+
+                   t1.setText(String.valueOf(x)+"+");
+
+               }
+           });
+           bsub.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+
+                       flag=1;
+                       sub=1;
+                       t1.setText(String.valueOf(x)+"-");
+
+
+               }
+           });
+           bmult.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   flag=1;
+                   mul=1;
+                   t1.setText(String.valueOf(x)+"x");
+               }
+           });
+           bdiv.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   flag=1;
+                   div=1;
+                   t1.setText(String.valueOf(x)+"%");
+               }
+           });
+           bequal.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   if(flag==1){
+                       flag=0;
+                   }
+                   if(sum==1){
+                       result=x+y;
+                       t1.setText(String.valueOf(result));
+                       sum=0;
+                   }
+                   if(sub==1){
+                       result=x-y;
+                       t1.setText(String.valueOf(result));
+                       sub=0;
+                   }
+                   if(mul==1){
+                       result=x*y;
+                       t1.setText(String.valueOf(result));
+                       mul=0;
+                   }
+                   if(div==1){
+                       result=x/y;
+                       t1.setText(String.valueOf(result));
+                       div=0;
+                   }
+               }
+           });
+           bclear.setOnClickListener(new View.OnClickListener() {
+               @Override
+               public void onClick(View view) {
+                   t1.setText("0");
+                   flag=0;
+                   sum=0;
+                   sub=0;
+                   mul=0;
+                   div=0;
+                   x=0;
+                   y=0;
+               }
+
+
+           });
 
        }catch (NullPointerException ex){
            ex.printStackTrace();
