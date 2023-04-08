@@ -61,76 +61,70 @@ public class MainActivity extends AppCompatActivity {
            b1.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10+1;
                        t1.setText(String.valueOf(x));
                    }
-                   else{
+                   if(flag==1){
                        y=y*10+1;
                        if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
-
                    }
-
                }
            });
            b2.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10+2;
                        t1.setText(String.valueOf(x));
                    }
-                   else{
+                   if(flag==1){
                        y=y*10+2;
                        if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
-
                    }
                }
            });
            b3.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10+3;
                        t1.setText(String.valueOf(x));
                    }
-                   else {
+                   if(flag==1){
                        y=y*10+3;
                        if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
                    }
@@ -139,48 +133,46 @@ public class MainActivity extends AppCompatActivity {
            b4.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10+4;
                        t1.setText(String.valueOf(x));
                    }
-                   else{
+                   if(flag==1){
                        y=y*10+4;
                        if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
                    }
                }
            });
            b5.setOnClickListener(new View.OnClickListener() {
-
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10+5;
                        t1.setText(String.valueOf(x));
                    }
-                   else{
-                       y=y*10+5; if(sum==1){
+                   if(flag==1){
+                       y=y*10+5;
+                       if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
                    }
@@ -189,23 +181,22 @@ public class MainActivity extends AppCompatActivity {
            b6.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10+6;
                        t1.setText(String.valueOf(x));
                    }
-                   else{
+                   if(flag==1){
                        y=y*10+6;
                        if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
                    }
@@ -214,23 +205,22 @@ public class MainActivity extends AppCompatActivity {
            b7.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10+7;
                        t1.setText(String.valueOf(x));
                    }
-                   else {
+                   if(flag==1){
                        y=y*10+7;
                        if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
                    }
@@ -239,23 +229,22 @@ public class MainActivity extends AppCompatActivity {
            b8.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10+8;
                        t1.setText(String.valueOf(x));
                    }
-                   else{
+                   if(flag==1){
                        y=y*10+8;
                        if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
                    }
@@ -264,23 +253,22 @@ public class MainActivity extends AppCompatActivity {
            b9.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10+9;
                        t1.setText(String.valueOf(x));
                    }
-                   else{
+                   if(flag==1){
                        y=y*10+9;
                        if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
                    }
@@ -289,93 +277,27 @@ public class MainActivity extends AppCompatActivity {
            b0.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   if(justclicked==1){
-                       justclicked=0;
-                   }
                    if(flag==0){
                        x=x*10;
                        t1.setText(String.valueOf(x));
                    }
-                   else{
+                   if(flag==1){
                        y=y*10;
                        if(sum==1){
                            t1.setText(String.valueOf(x)+"+"+String.valueOf(y));
-                       } else if (sub==1) {
+                       }
+                       if(sub==1){
                            t1.setText(String.valueOf(x)+"-"+String.valueOf(y));
-                       } else if (mul==1) {
+                       }
+                       if(mul==1){
                            t1.setText(String.valueOf(x)+"x"+String.valueOf(y));
                        }
-                       else{
+                       if(div==1){
                            t1.setText(String.valueOf(x)+"%"+String.valueOf(y));
                        }
                    }
                }
            });
-           bsum.setOnClickListener(new View.OnClickListener() {
-               @Override
-               public void onClick(View view) {
-                   flag=1;
-                   sum=1;
-                   justclicked=1;
-                   t1.setText(String.valueOf(x)+"+");
-               }
-           });
-           bsub.setOnClickListener(new View.OnClickListener() {
-               @Override
-               public void onClick(View view) {
-                   flag=1;
-                   sub=1;
-                   justclicked=1;
-                   t1.setText(String.valueOf(x)+"-");
-               }
-           });
-           bmult.setOnClickListener(new View.OnClickListener() {
-               @Override
-               public void onClick(View view) {
-                   flag=1;
-                   mul=1;
-                   justclicked=1;
-                   t1.setText(String.valueOf(x)+"x");
-               }
-           });
-           bdiv.setOnClickListener(new View.OnClickListener() {
-               @Override
-               public void onClick(View view) {
-                   flag=1;
-                   div=1;
-                   justclicked=1;
-                   t1.setText(String.valueOf(x)+"%");
-               }
-           });
-           bequal.setOnClickListener(new View.OnClickListener() {
-               @Override
-               public void onClick(View view) {
-                 if(flag==1){
-                     if(sum==1){
-                         result=x+y;
-                     } else if (sub==1) {
-                         result=x-y;
-                     }
-                     else if(mul==1){
-                         result=x*y;
-                     }
-                     else {
-                         result=x/y;
-                     }
-                     t1.setText(String.valueOf(result));
-                     x=result;
-                     flag=0;
-                     sum=0;
-                     sub=0;
-                     mul=0;
-                     div=0;
-                 }
-                 else{
-                     t1.setText(String.valueOf(x));
-                 }
-               }
-           });
-
 
        }catch (NullPointerException ex){
            ex.printStackTrace();
