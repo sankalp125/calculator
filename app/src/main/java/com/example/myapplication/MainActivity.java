@@ -30,10 +30,9 @@ public class MainActivity extends AppCompatActivity {
     int mul=0;
     int div=0;
     int flag=0;
-    int x=0;
-    int y=0;
-    int justclicked=0;
-    int result;
+    double x=0;
+    double y=0;
+    double result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -361,6 +360,8 @@ public class MainActivity extends AppCompatActivity {
                        t1.setText(String.valueOf(result));
                        div=0;
                    }
+                   x=result;
+                   y=0;
                }
            });
            bclear.setOnClickListener(new View.OnClickListener() {
